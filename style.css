@@ -1,0 +1,32 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  max-width: 500px;
+  margin: auto;
+}
+
+header, p {
+  margin: 20px 10px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(160, 160, 160);
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+.profile-picture {
+  width: 100px;
+  border: 1px solid rgb(224, 224, 224);
+  border-radius: 50px;
+}
